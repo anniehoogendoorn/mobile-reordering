@@ -78,7 +78,7 @@ section, footer {
 
 
 @media all and (max-width:1000px) {
-  
+
   .flex-nav ul {
     flex-wrap:wrap;
   }
@@ -97,11 +97,11 @@ section, footer {
 /* This is where the magic Happens */
 
 @media all and (max-width:500px) {
-  
+
   .flex-nav li {
     flex-basis:100%;
   }
-  
+
 
   /* Turn on flexbox */
   .wrapper {
@@ -113,7 +113,7 @@ section, footer {
   .wrapper > * {
     order:999;
   }
-  
+
   /* Nav */
   .flex-nav {
     order:1;
@@ -129,7 +129,7 @@ section, footer {
     .flex-nav ul.open {
       display:flex;
     }
-  
+
   /* Header */
   .top {
     order:2;
